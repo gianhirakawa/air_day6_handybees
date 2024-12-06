@@ -329,8 +329,8 @@ def main_page():
     
         options = option_menu(
             "Dashboard", 
-            ["Home", "Data", "Chat"],
-            icons = ['house', 'file', 'robot', 'pin'],
+            ["Home", "Chat"],
+            icons = ['house', 'robot'],
             menu_icon = "book", 
             default_index = 0,
             styles = {
@@ -357,8 +357,8 @@ def main_page():
     elif options == "Home" :
         Home()
 
-    elif options == "Data" :
-        Data()
+    # elif options == "Data" :
+    #     Data()
 
     elif options == "Chat" :
         Chat()
